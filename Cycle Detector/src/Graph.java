@@ -58,7 +58,7 @@ public class Graph
 
 	public static void main(String[] args) throws FileNotFoundException
 	{
-		Graph g = new Graph(args[0]);
+		Graph g = new Graph("tinyG.txt");
 
 		System.out.println(g);
 	}
